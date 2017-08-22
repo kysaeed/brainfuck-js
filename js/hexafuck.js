@@ -6,7 +6,6 @@ var getInput = function() {
 };
 
 var hexafuck = function(code) {
-    const commandList = ['>', '<', '+', '-', '.', ',', '[', ']'];
     const MemorySize = 3000;
     var result = '';
     var programCounter = 0;
